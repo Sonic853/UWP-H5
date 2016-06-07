@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	direction: ltr;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: RobotoDraft,Roboto,"Helvetica Neue",Helvetica,"Segoe UI","Microsoft YaHei",arial,sans-serif;
+}
+#W10H5>#W10-headbar{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 40px;
+	background-color: rgba(128,57,123,1);
+	/*background-color: rgba(32,166,60,1);*/
+}
+#W10H5>#W10-main{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 40px;
+}
+#W10H5>#W10-menu{
+	position: absolute;
+	left: -295px;
+	top: 0;
+	bottom: 0;
+	display: block;
+	width: 270px;
+	background-color: rgba(51,51,51,1);
+	z-index: 999;
+	box-shadow: 0 0 15px rgba(51,51,51,0.85);
+	transition: left 0.27s cubic-bezier(0,0,0,1);
+}
+#W10H5>#W10-menu.on{
+	left: 0px;
+}
+#W10H5>#W10-headbar>#W10-menuBtn{
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	background:transparent;
+	border: 0;
+	display: block;
+	float: left;
+}
+#W10H5>#W10-headbar>#W10-menuBtn:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+#W10H5>#W10-menu>#W10-menuBtnC{
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	line-height: 40px;
+	height: 40px;
+	width: 100%;
+	padding-left: 20px;
+	background:transparent;
+	border: 0;
+	font-size: 13px;
+	color: #FFF;
+}
+#W10H5>#W10-menu>#W10-menuBtnC>.W10-menuicon{
+	margin-right: 12px;
+}
+#W10H5>#W10-menu>#W10-menuBtnC:hover>.W10-menuicon>span{
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+#W10H5>#W10-menu>#W10-menuBtnC>span{
+}
+#W10H5>#W10-menu>ol{
+	list-style: outside none none;
+	color: #fff;
+}
+#W10H5>#W10-menu>ol>li{
+	line-height: 40px;
+	height: 40px;
+}
+#W10H5>#W10-menu>ol>li:hover{
+	background-color: rgba(32,32,32,1);
+}
+#W10H5>#W10-menu>ol>li>a{
+	display: block;
+	text-decoration: none;
+	font-size: 13px;
+	padding-left: 20px;
+}
+#W10H5>#W10-menu>ol>li>a>.W10-foldericon{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/folder.png);
+	margin-right: 12px;
+}
+#W10H5>#W10-menu>ol>li>a>span{
+	vertical-align: middle;
+}
+.W10-menuicon{
+	display: inline-block;
+	width: 20px;
+	height: 11px;
+}
+.W10-menuicon>span{
+	display: block;
+	border-bottom: 1px solid #fff;
+}
+.W10-menuicon>span+span{
+	margin-top: 4px;
+}

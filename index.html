@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link href="./css/styles.css" rel="stylesheet" type="text/css">
+	</head>
+	<body id="W10H5">
+		<nav id="W10-menu">
+			<button id="W10-menuBtnC">
+				<span class="W10-menuicon"><span></span><span></span><span></span></span><span>OneNote H5</span>
+			</button>
+			<ol>
+				<li>
+					<a><span class="W10-foldericon"></span><span>笔记</span></a>
+				</li>
+				<li>
+					<a><span class="W10-foldericon"></span><span>笔记</span></a>
+				</li>
+			</ol>
+		</nav>
+		<div id="W10-headbar">
+			<button id="W10-menuBtn">
+				<span class="W10-menuicon"><span></span><span></span><span></span></span>
+			</button>
+		</div>
+		<div id="W10-main"></div>
+		<div id="W10-bak"></div>
+		<script src="js/jquery.min.js"></script>
+		<script>
+$(document).ready(function() {
+	$('#W10-menuBtnC,#W10-menuBtn').click(function (){
+		$('#W10-menu,#W10-bak').toggleClass('on');
+	});
+});
+		</script>
+	</body>
+</html>
