@@ -1,0 +1,18 @@
+@font-face {
+   	font-family: 'SegoeMDL2';
+	src: url("segmdl2-webfont.woff2") format("woff2"), url("segmdl2-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+[class|=W10-icon]{
+	font-family: "SegoeMDL2";
+	font-size: 20px;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	cursor: default;
+}
+.W10-icon-page:before {content: '\E7C3';}
