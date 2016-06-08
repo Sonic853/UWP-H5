@@ -117,4 +117,8 @@ html,body{
 	bottom: 0;
 	left: 0;
 	right: 0;
+	display: none;
+}
+#W10-bak.on{
+	display: block;
 }
