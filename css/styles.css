@@ -1,3 +1,9 @@
+@font-face {
+   	font-family: 'SegoeMDL2';
+	src: url("segmdl2-webfont.woff2") format("woff2"), url("segmdl2-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
 *{
 	padding: 0;
 	margin: 0;
@@ -84,15 +90,18 @@ html,body{
 }
 #W10H5>#W10-menu>ol>li>a{
 	display: block;
+	height: 40px;
 	text-decoration: none;
 	font-size: 13px;
 	padding-left: 20px;
 }
-#W10H5>#W10-menu>ol>li>a>.W10-foldericon{
+#W10H5>#W10-menu>ol>li>a>.W10-icon-folder{
+	font-family: "SegoeMDL2";
+	font-size: 20px;
+	white-space: nowrap;
+	vertical-align: middle;
 	display: inline-block;
 	width: 20px;
-	height: 20px;
-	background-image: url(../img/folder.png);
 	margin-right: 12px;
 }
 #W10H5>#W10-menu>ol>li>a>span{
