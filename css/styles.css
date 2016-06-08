@@ -110,3 +110,11 @@ html,body{
 .W10-menuicon>span+span{
 	margin-top: 4px;
 }
+#W10-bak{
+	z-index: 998;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
