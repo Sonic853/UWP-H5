@@ -40,7 +40,7 @@ html,body{
 #W10H5>#W10-menu.on{
 	left: 0px;
 }
-#W10H5>#W10-headbar>#W10-menuBtn{
+#W10H5>#W10-headbar>.W10-menuBtn{
 	width: 60px;
 	height: 40px;
 	line-height: 40px;
@@ -50,29 +50,26 @@ html,body{
 	display: block;
 	float: left;
 }
-#W10H5>#W10-headbar>#W10-menuBtn:hover{
+#W10H5>#W10-headbar>.W10-menuBtn:hover{
 	background-color: rgba(255,255,255,0.3);
 }
-#W10H5>#W10-menu>#W10-menuBtnC{
-	display: block;
-	text-align: left;
-	text-decoration: none;
+#W10H5>#W10-menu>#W10-menuC{
 	line-height: 40px;
 	height: 40px;
-	width: 100%;
-	padding-left: 20px;
-	background:transparent;
-	border: 0;
 	font-size: 13px;
 	color: #FFF;
 }
-#W10H5>#W10-menu>#W10-menuBtnC>.W10-menuicon{
-	margin-right: 12px;
+#W10H5>#W10-menu>#W10-menuC>.W10-menuBtn{
+	width: 52px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 12px 0 20px;
+	background:transparent;
+	border: 0;
+	display: inline-block;
 }
-#W10H5>#W10-menu>#W10-menuBtnC:hover>.W10-menuicon>span{
+#W10H5>#W10-menu>#W10-menuC>.W10-menuBtn:hover>.W10-menuicon>span{
 	border-bottom: 1px solid rgba(255,255,255,0.5);
-}
-#W10H5>#W10-menu>#W10-menuBtnC>span{
 }
 #W10H5>#W10-menu>ol{
 	list-style: outside none none;
