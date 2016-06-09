@@ -1,8 +1,13 @@
 @font-face {
    	font-family: 'SegoeMDL2';
-	src: url("segmdl2-webfont.woff2") format("woff2"), url("segmdl2-webfont.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
+  src: url('segmdl2-webfont.eot');
+  src: url('segmdl2-webfont.woff2') format('woff2'),
+       url('segmdl2-webfont.woff') format('woff'),
+       url('segmdl2-webfont.ttf') format('truetype'),
+       url('segmdl2-webfont.svg#SegoeMDL2Assets') format('svg'),
+       url('segmdl2-webfont.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 [class|=W10-icon]{
 	font-family: "SegoeMDL2";
@@ -15,5 +20,69 @@
 	-webkit-user-select: none;
 	cursor: default;
 }
-.W10-icon-page:before {content: '\E7C3';}
-.W10-icon-history:before {content: '\E81C';}
+.W10-icon-Page:before {content: '\E7C3';}
+.W10-icon-History:before {content: '\E81C';}
+.W10-icon-Bold:before {content: '\E8DD';}
+.W10-icon-Mappin:before {content: '\E707';}
+.W10-icon-Edit:before {content: '\E70F';}
+.W10-icon-Add:before {content: '\E710';}
+.W10-icon-Cancel:before {content: '\E711';}
+.W10-icon-More:before {content: '\E712';}
+.W10-icon-Settings:before {content: '\E713';}
+.W10-icon-Video:before {content: '\E714';}
+.W10-icon-Mail:before {content: '\E715';}
+.W10-icon-People:before {content: '\E716';}
+.W10-icon-Phone:before {content: '\E717';}
+.W10-icon-Pin:before {content: '\E718';}
+.W10-icon-Shop:before {content: '\E719';}
+.W10-icon-Link:before {content: '\E71B';}
+.W10-icon-Filter:before {content: '\E71C';}
+.W10-icon-AllApps:before {content: '\E71D';}
+.W10-icon-Zoom:before {content: '\E71E';}
+.W10-icon-ZoomOut:before {content: '\E71F';}
+.W10-icon-Microphone:before {content: '\E720';}
+.W10-icon-Camera:before {content: '\E722';}
+.W10-icon-Attach:before {content: '\E723';}
+.W10-icon-Forward:before {content: '\E72A';}
+.W10-icon-Back:before {content: '\E72B';}
+.W10-icon-Refresh:before {content: '\E72C';}
+.W10-icon-Share:before {content: '\E72D';}
+.W10-icon-ReportHacked:before {content: '\E730';}
+.W10-icon-FavoriteStar:before {content: '\E734';}
+.W10-icon-FavoriteStarFill:before {content: '\E735';}
+.W10-icon-Remove:before {content: '\E738';}
+.W10-icon-Checkbox:before {content: '\E739';}
+.W10-icon-CheckboxComposite:before {content: '\E73A';}
+.W10-icon-CheckboxFill:before {content: '\E73B';}
+.W10-icon-CheckboxIndeterminate:before {content: '\E73C';}
+.W10-icon-CheckboxCompositeReversed:before {content: '\E73D';}
+.W10-icon-CheckMark:before {content: '\E73E';}
+.W10-icon-BackToWindow:before {content: '\E73F';}
+.W10-icon-FullScreen:before {content: '\E740';}
+.W10-icon-Up:before {content: '\E74A';}
+.W10-icon-Delete:before {content: '\E74D';}
+.W10-icon-Save:before {content: '\E74E';}
+.W10-icon-Mute:before {content: '\E74F';}
+.W10-icon-Cloud:before {content: '\E753';}
+.W10-icon-KeyboardClassic:before {content: '\E765';}
+.W10-icon-Volume:before {content: '\E767';}
+.W10-icon-Play:before {content: '\E768';}
+.W10-icon-Pause:before {content: '\E769';}
+.W10-icon-Emoji2:before {content: '\E76E';}
+.W10-icon-Globe:before {content: '\E774';}
+.W10-icon-Hangup:before {content: '\E778';}
+.W10-icon-ContactInfo:before {content: '\E779';}
+.W10-icon-UnPin:before {content: '\E77A';}
+.W10-icon-Contact:before {content: '\E77B';}
+.W10-icon-Memo:before {content: '\E77C';}
+.W10-icon-Paste:before {content: '\E77F';}
+.W10-icon-PhoneBook:before {content: '\E780';}
+.W10-icon-Slideshow:before {content: '\E786';}
+.W10-icon-Calendar:before {content: '\E787';}
+.W10-icon-Trim:before {content: '\E78A';}
+.W10-icon-NewWindow:before {content: '\E78B';}
+.W10-icon-SaveLocal:before {content: '\E78C';}
+.W10-icon-Redo:before {content: '\E7A6';}
+.W10-icon-Undo:before {content: '\E7A7';}
+.W10-icon-Crop:before {content: '\E7A8';}
+.W10-icon-OpenWith:before {content: '\E7AC';}
