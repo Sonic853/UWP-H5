@@ -11,7 +11,8 @@
 }
 [class|=W10-icon]{
 	font-family: "SegoeMDL2";
-	font-size: 20px;
+	font-size: 16px;
+	text-align: center;
 	white-space: nowrap;
 	vertical-align: middle;
 	user-select: none;
