@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link href="./css/segmdl2-webfont.css" rel="stylesheet" type="text/css">
+		<link href="./css/styles.css" rel="stylesheet" type="text/css">
+	</head>
+	<body id="W10H5">
+		<nav id="W10-menu">
+			<div id="W10-menuClose">
+				<button class="W10-menuBtn">
+					<span class="W10-menuicon"><span></span><span></span><span></span></span>
+				</button>
+				<span>OneNote H5</span>
+			</div>
+			<div id="W10-menulist">
+				<ol>
+					<li class="touched">
+						<a><span class="W10-icon-History"></span><span>最近的笔记</span></a>
+					</li>
+				</ol>
+				<ol>
+					<li>
+						<a><span class="W10-icon-Page"></span><span>笔记</span></a>
+					</li>
+					<li>
+						<a><span class="W10-icon-Page"></span><span>笔记</span></a>
+					</li>
+				</ol>
+			</div>
+		</nav>
+		<div id="W10-headbar">
+			<button class="W10-menuBtn">
+				<span class="W10-menuicon"><span></span><span></span><span></span></span>
+			</button>
+			<div id="W10-tab">
+				<ol>
+					<li class="touched">开始</li>
+					<li>插入</li>
+					<li>绘图</li>
+					<li>视图</li>
+				</ol>
+			</div>
+		</div>
+		<div id="W10-main">
+			<div id="W10-tablist">
+				
+			</div>
+		</div>
+		<div id="W10-bak"></div>
+		<script src="js/jquery.min.js"></script>
+		<script>
+$(document).ready(function() {
+	$('.W10-menuBtn,#W10-bak').click(function (){
+		$('#W10-menu,#W10-bak').toggleClass('on');
+	});
+});
+		</script>
+	</body>
+</html>

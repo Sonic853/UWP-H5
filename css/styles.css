@@ -1,0 +1,186 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	direction: ltr;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: RobotoDraft,Roboto,"Helvetica Neue",Helvetica,"Segoe UI","Microsoft YaHei",arial,sans-serif;
+}
+#W10H5>#W10-headbar{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 40px;
+	background-color: rgba(128,57,123,1);
+	/*background-color: rgba(32,166,60,1);*/
+}
+#W10H5>#W10-headbar>#W10-tab{
+	position: absolute;
+	left: 60px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+#W10H5>#W10-headbar>#W10-tab>ol{
+	list-style: outside none none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+#W10H5>#W10-headbar>#W10-tab>ol>li{
+	display: inline-block;
+	width: 76px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: rgba(243,243,243,0);
+	color: rgba(255,255,255,1);
+	font-size: 17px;
+	border-radius: 2px 2px 0 0;
+}
+#W10H5>#W10-headbar>#W10-tab>ol>li:hover{
+	background-color: rgba(255,255,255,0.23);
+}
+#W10H5>#W10-headbar>#W10-tab>ol>li.touched{
+	color: rgba(128,57,123,1);
+	background-color: rgba(243,243,243,1);
+}
+#W10H5>#W10-main{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 40px;
+}
+#W10H5>#W10-main>#W10-tablist{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 48px;
+	background-color: rgba(243,243,243,1);
+	border-bottom: 1px solid rgba(210,210,210,1);
+}
+#W10H5>#W10-menu{
+	position: absolute;
+	left: -295px;
+	top: 0;
+	bottom: 0;
+	display: block;
+	width: 270px;
+	background-color: rgba(51,51,51,1);
+	z-index: 999;
+	box-shadow: 0 0 15px rgba(51,51,51,0.85);
+	transition: left 0.25s cubic-bezier(0,0,0,1);
+}
+#W10H5>#W10-menu.on{
+	left: 0px;
+	transition: left 0.3s cubic-bezier(0,0,0,1);
+}
+#W10H5>#W10-headbar>.W10-menuBtn{
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	background:transparent;
+	border: 0;
+	display: block;
+	float: left;
+}
+#W10H5>#W10-headbar>.W10-menuBtn:hover{
+	background-color: rgba(255,255,255,0.23);
+}
+#W10H5>#W10-menu>#W10-menuClose{
+	line-height: 40px;
+	height: 40px;
+	font-size: 13px;
+	color: #FFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+#W10H5>#W10-menu>#W10-menuClose>.W10-menuBtn{
+	width: 52px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 12px 0 20px;
+	background:transparent;
+	border: 0;
+	display: inline-block;
+}
+#W10H5>#W10-menu>#W10-menuClose>.W10-menuBtn:hover>.W10-menuicon>span{
+	border-bottom: 1px solid rgba(255,255,255,0.485);
+}
+#W10H5>#W10-menu>#W10-menulist{
+	position: absolute;
+	top: 40px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow-x: auto;
+}
+#W10H5>#W10-menu>#W10-menulist>ol{
+	list-style: outside none none;
+	color: #fff;
+}
+#W10H5>#W10-menu>#W10-menulist>ol>li{
+	line-height: 48px;
+	height: 48px;
+}
+#W10H5>#W10-menu>#W10-menulist>ol>li:hover{
+	background-color: rgba(0,0,0,0.38);
+}
+#W10H5>#W10-menu>#W10-menulist>ol>li.touched{
+	background-color: rgba(0,0,0,0.38);
+}
+#W10H5>#W10-menu>#W10-menulist>ol>li>a{
+	display: block;
+	height: 48px;
+	text-decoration: none;
+	font-size: 13px;
+	padding-left: 20px;
+}
+#W10H5>#W10-menu>#W10-menulist>ol>li>a>[class|=W10-icon]{
+	display: inline-block;
+	margin-right: 12px;
+	width: 20px;
+}
+#W10H5>#W10-menu>#W10-menulist>ol>li>a>span{
+	vertical-align: middle;
+}
+.W10-menuicon{
+	display: inline-block;
+	width: 20px;
+	height: 11px;
+}
+.W10-menuicon>span{
+	display: block;
+	border-bottom: 1px solid #fff;
+}
+.W10-menuicon>span+span{
+	margin-top: 4px;
+}
+#W10-bak{
+	z-index: 998;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+}
+#W10-bak.on{
+	display: block;
+}
